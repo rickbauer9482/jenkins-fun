@@ -1,4 +1,4 @@
-FROM jenkins/agent:latest-alpine-jdk11
+FROM jenkins/agent:alpine-jdk11
 USER root
 RUN apk update &&\
 apk add python3 &&\
